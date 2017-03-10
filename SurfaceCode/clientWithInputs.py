@@ -22,7 +22,8 @@ s.connect((HOST, PORT))
 dt = datetime.datetime.now()
 dt = dt.replace(microsecond=0)
 datestring = str(dt)
-plate = 'EDK6023'
+#plate = 'EDK6023'
+plate = "GJH9885"
 access = True
 logEntry = (datestring, plate, access)  #does this work?
 
